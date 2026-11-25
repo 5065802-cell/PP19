@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cyber Security Registration</title>
+  <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+  <div class="box">
+    <h2>Cyber Security Registration</h2>
+    <form onsubmit="alert('Submitted!'); return false;">
+      <label>Full Name:</label><input type="text" required>
+      <label>Email:</label><input type="email" required>
+      <label>Mobile:</label><input type="tel" required>
+      <label>Course:</label>
+      <select><option>Web Security</option><option>Digital Forensics</option></select>
+      <label>Experience:</label>
+      <input type="radio" name="exp" checked> Beginner
+      <input type="radio" name="exp"> Intermediate
+      <label>Interests:</label>
+      <input type="checkbox"> Malware <input type="checkbox"> Cloud
+      <label>Comments:</label><textarea rows="3"></textarea>
+      <div class="btns">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
